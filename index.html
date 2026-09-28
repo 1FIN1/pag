@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALU | Productora Audiovisual en Mar del Plata</title>
+    <meta name="description" content="Creamos el contenido audiovisual que tu negocio necesita para mostrarse y vender. Foto, video y publicidad en Mar del Plata.">
+    <!-- Tailwind CSS (Framework de diseño moderno) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración personalizada de colores -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        calu: {
+                            dark: '#0a0a0a',
+                            light: '#ffffff',
+                            accent: '#c0ff00', // Lima vibrante premium
+                            gray: '#171717'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #ffffff; }
+        .gradient-text { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(90deg, #c0ff00, #d4ff4d); }
+        .hero-bg { background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%); }
+        .glass-card { background: rgba(23, 23, 23, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="antialiased selection:bg-calu-accent selection:text-black">
+
+    <!-- Navegación -->
+    <nav class="fixed w-full z-50 glass-card transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-3xl font-black tracking-tighter">CALU<span class="text-calu-accent">.</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#enfoque" class="text-gray-300 hover:text-white transition">Nuestro Enfoque</a>
+                    <a href="#casos" class="text-gray-300 hover:text-white transition">Casos CALU</a>
+                    <a href="#servicios" class="text-gray-300 hover:text-white transition">Servicios y Abonos</a>
+                </div>
+                <div>
+                    <a href="#contacto" class="bg-calu-accent text-black font-bold py-2 px-6 rounded-full hover:bg-white transition duration-300 shadow-[0_0_15px_rgba(192,255,0,0.4)]">
+                        Pedir Propuesta
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center pt-20 relative overflow-hidden">
+        <!-- Elementos decorativos de fondo -->
+        <div class="absolute top-1/4 -left-20 w-72 h-72 bg-calu-accent rounded-full mix-blend-multiply filter blur-[128px] opacity-20"></div>
+        <div class="absolute bottom-1/4 -right-20 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-[128px] opacity-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="text-calu-accent font-bold tracking-widest uppercase text-sm mb-4 block">Productora Audiovisual — Mar del Plata</span>
+            <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+                Tu marca tiene algo que decir. <br>
+                <span class="gradient-text">CALU hace que se vea.</span>
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-10 font-light">
+                No venimos a "sacarte fotitos" ni a manejarte el Instagram. Creamos el contenido audiovisual que tu negocio necesita para mostrarse y <strong class="text-white">vender</strong>.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#servicios" class="bg-calu-accent text-black font-bold text-lg py-4 px-8 rounded-full hover:scale-105 transition duration-300 shadow-[0_0_20px_rgba(192,255,0,0.5)]">
+                    Ver Planes y Abonos
+                </a>
+                <a href="#casos" class="glass-card text-white font-bold text-lg py-4 px-8 rounded-full hover:bg-white hover:text-black transition duration-300">
+                    Ver Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enfoque / Filosofía -->
+    <section id="enfoque" class="py-24 bg-calu-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">El contenido de tu negocio no debería ser un gasto. <span class="text-calu-accent">Es una inversión.</span></h2>
+                    <p class="text-gray-400 text-lg mb-6">
+                        Si ya tenés un buen producto (gastronomía, moda, belleza, inmobiliaria), el problema no es lo que vendés, es <strong>cómo lo mostrás</strong>.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1 mr-3 text-xl"></i>
+                            <span class="text-gray-300">"Te saco unas fotos lindas para rellenar el feed."</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-calu-accent mt-1 mr-3 text-xl"></i>
+                            <span class="text-gray-300"><strong>Creamos un banco de contenido estratégico:</strong> Reels, clips verticales y fotos editadas listas para pautar y vender.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <!-- Cuadros simulando rubros -->
+                    <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center hover:border-calu-accent transition">
+                        <i class="fa-solid fa-utensils text-3xl mb-3 text-calu-accent"></i>
+                        <h3 class="font-bold">Gastronomía</h3>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center hover:border-calu-accent transition">
+                        <i class="fa-solid fa-shirt text-3xl mb-3 text-calu-accent"></i>
+                        <h3 class="font-bold">Moda</h3>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center hover:border-calu-accent transition">
+                        <i class="fa-solid fa-building text-3xl mb-3 text-calu-accent"></i>
+                        <h3 class="font-bold">Empresas</h3>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center hover:border-calu-accent transition">
+                        <i class="fa-solid fa-spa text-3xl mb-3 text-calu-accent"></i>
+                        <h3 class="font-bold">Belleza</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Casos CALU (Portfolio Estructurado) -->
+    <section id="casos" class="py-24 bg-[#0f0f0f]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Casos CALU</h2>
+                <p class="text-gray-400 text-lg">No mostramos fotos sueltas. Mostramos resultados comerciales.</p>
+            </div>
+            
+            <!-- Ejemplo de Caso (Estructura del Plan de Negocios) -->
+            <div class="glass-card rounded-3xl overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row">
+                <!-- Espacio para foto/video real (marcador de posición) -->
+                <div class="md:w-1/2 bg-gray-800 relative min-h-[300px] flex items-center justify-center">
+                    <i class="fa-solid fa-play text-5xl text-gray-600"></i>
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                    <span class="absolute bottom-4 left-4 font-bold text-xl">Lanzamiento Temp. Verano</span>
+                </div>
+                <div class="md:w-1/2 p-8 lg:p-12">
+                    <div class="mb-6">
+                        <span class="text-calu-accent text-sm font-bold uppercase tracking-wider">Moda & Indumentaria</span>
+                        <h3 class="text-2xl font-bold mt-1">Marca X</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <p class="text-gray-500 font-bold uppercase text-xs">El Problema</p>
+                            <p class="text-gray-300">Necesitaban contenido de alto impacto para el lanzamiento de su nueva colección, alejándose de la típica foto de catálogo.</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 font-bold uppercase text-xs">La Producción</p>
+                            <p class="text-gray-300">Jornada de 3 horas. Dirección creativa, fotografía, modelos y grabación de video estabilizado.</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 font-bold uppercase text-xs">Entregamos</p>
+                            <p class="text-white font-bold">25 Fotos Editadas + 6 Reels + 10 Clips Verticales</p>
+                        </div>
+                        <div class="bg-calu-accent/10 border border-calu-accent/20 p-4 rounded-xl mt-4">
+                            <p class="text-calu-accent font-bold uppercase text-xs">Resultado</p>
+                            <p class="text-gray-200 mt-1">El cliente obtuvo un banco de contenido optimizado para redes y pauta publicitaria para cubrir más de 3 semanas de publicaciones ininterrumpidas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios y Precios -->
+    <section id="servicios" class="py-24 bg-calu-dark relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Soluciones Audiovisuales</h2>
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">Seleccioná si necesitás una producción puntual para un lanzamiento, o si querés delegarnos el contenido de tu empresa todo el mes.</p>
+            </div>
+
+            <!-- Toggle Button (Únicas vs Mensuales) -->
+            <div class="flex justify-center mb-16">
+                <div class="bg-calu-gray p-1 rounded-full inline-flex relative">
+                    <button id="btn-unicas" onclick="showTab('unicas')" class="relative z-10 px-8 py-3 rounded-full text-sm font-bold transition-colors duration-300 text-black">Producciones Únicas</button>
+                    <button id="btn-abonos" onclick="showTab('abonos')" class="relative z-10 px-8 py-3 rounded-full text-sm font-bold text-gray-400 transition-colors duration-300 hover:text-white">Abonos Mensuales</button>
+                    <!-- Pill background animation -->
+                    <div id="tab-pill" class="absolute top-1 left-1 bottom-1 w-[calc(50%-4px)] bg-calu-accent rounded-full transition-transform duration-300 ease-out"></div>
+                </div>
+            </div>
+
+            <!-- TAB 1: Producciones Únicas -->
+            <div id="tab-unicas" class="grid grid-cols-1 md:grid-cols-3 gap-8 transition-opacity duration-500">
+                
+                <!-- CALU MINI -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <div class="absolute top-0 right-0 bg-white text-black text-xs font-bold px-3 py-1 rounded-bl-xl rounded-tr-3xl">Lanzamiento</div>
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">CALU Mini</h3>
+                    <p class="text-gray-400 text-sm mb-6">Ideal para emprendimientos pequeños.</p>
+                    <div class="mb-6 flex items-end">
+                        <span class="text-4xl font-black">$70.000</span>
+                        <span class="text-gray-500 line-through ml-2 mb-1">$85.000</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-regular fa-clock mr-2"></i>Hasta 90 minutos</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>12 fotografías editadas</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>3 Reels listos para publicar</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>5 Clips verticales en crudo</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Planificación y grabación</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Consultar Fechas</a>
+                </div>
+
+                <!-- CALU PRO -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-calu-accent text-black text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-500">El Más Elegido</div>
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">CALU Pro</h3>
+                    <p class="text-gray-400 text-sm mb-6">Un banco de contenido completo.</p>
+                    <div class="mb-6 flex items-end">
+                        <span class="text-4xl font-black">$130.000</span>
+                        <span class="text-gray-500 line-through ml-2 mb-1">$160.000</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-regular fa-clock mr-2"></i>Hasta 3 horas</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>25 fotografías editadas</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>6 Reels optimizados</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>10 Clips verticales</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Dirección de contenido</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Reservar Jornada</a>
+                </div>
+
+                <!-- CALU CAMPAÑA -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">CALU Campaña</h3>
+                    <p class="text-gray-400 text-sm mb-6">Producción publicitaria premium.</p>
+                    <div class="mb-6 flex items-end">
+                        <span class="text-gray-400 mr-2 mb-1">Desde</span>
+                        <span class="text-4xl font-black">$300.000</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-solid fa-clapperboard mr-2"></i>Rodaje + Post Producción</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Video Principal publicitario</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Guion, Idea y Concepto</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Fotografía de campaña</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Cortes para RRSS</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Cotizar Proyecto</a>
+                </div>
+            </div>
+
+            <!-- TAB 2: Abonos Mensuales (Oculto por defecto) -->
+            <div id="tab-abonos" class="grid grid-cols-1 md:grid-cols-3 gap-8 hidden opacity-0 transition-opacity duration-500">
+                
+                <!-- CALU CONTENIDO -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">CALU Contenido</h3>
+                    <p class="text-gray-400 text-sm mb-6">Mantené tus redes vivas.</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-black">$220.000</span><span class="text-gray-500 text-sm"> /mes</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-solid fa-calendar mr-2"></i>1 Jornada mensual</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>25 fotografías mensuales</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>6 Reels editados</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>10 Clips verticales</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Planificación mensual</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Aplicar al Abono</a>
+                </div>
+
+                <!-- PRO MENSUAL -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-calu-accent text-black text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-500">Escala tu Marca</div>
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">Pro Mensual</h3>
+                    <p class="text-gray-400 text-sm mb-6">Contenido agresivo para empresas.</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-black">$350.000</span><span class="text-gray-500 text-sm"> /mes</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-solid fa-calendar-days mr-2"></i>2 Jornadas mensuales</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>40 fotografías editadas</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>10 Reels editados</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>15 Clips en crudo</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Prioridad de edición</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Aplicar al Abono</a>
+                </div>
+
+                <!-- CALU EMPRESA -->
+                <div class="glass-card group p-8 rounded-3xl relative flex flex-col transform transition-all duration-500 hover:-translate-y-4 hover:border-calu-accent hover:shadow-[0_10px_30px_rgba(192,255,0,0.15)]">
+                    <h3 class="text-2xl font-bold mb-2 transition-colors duration-500 group-hover:text-calu-accent">CALU Empresa</h3>
+                    <p class="text-gray-400 text-sm mb-6">Partnership audiovisual corporativo.</p>
+                    <div class="mb-6 flex items-end">
+                        <span class="text-gray-400 mr-2 mb-1">Desde</span>
+                        <span class="text-4xl font-black">$550.000</span><span class="text-gray-500 text-sm mb-1"> /mes</span>
+                    </div>
+                    <p class="text-calu-accent text-sm font-bold mb-4"><i class="fa-solid fa-handshake mr-2"></i>Estructura a medida</p>
+                    <ul class="space-y-3 text-sm text-gray-300 mb-8 flex-grow">
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Videos Institucionales</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Cobertura de actividades</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Entrevistas y campañas</li>
+                        <li><i class="fa-solid fa-check text-calu-accent mr-2"></i>Contenido interno/externo</li>
+                    </ul>
+                    <a href="#contacto" class="w-full text-center py-3 rounded-xl font-bold transition-all duration-500 border border-gray-600 text-white group-hover:bg-calu-accent group-hover:border-transparent group-hover:text-black group-hover:shadow-lg hover:!bg-white hover:!scale-105">Agendar Reunión</a>
+                </div>
+
+            </div>
+            
+            <p class="text-center text-gray-500 text-xs mt-12 max-w-3xl mx-auto">* Cotizamos de forma independiente: modelos, locaciones, viáticos fuera de MDP, licencias musicales comerciales y equipamiento de alquiler especial (iluminación de cine, drones pesados, etc).</p>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contacto Directo -->
+    <section id="contacto" class="py-24 bg-calu-accent text-black relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-black mb-6">¿Listo para que tu marca se vea como realmente merece?</h2>
+            <p class="text-xl mb-10 font-medium">Contame qué vendés y armamos una propuesta concreta para tu negocio.</p>
+            
+            <!-- Link directo a WhatsApp con texto predefinido -->
+            <!-- NOTA: Reemplazar el número de teléfono en el enlace 'href' -->
+            <a href="https://wa.me/2233395299?text=Hola%20Camila,%20vengo%20de%20la%20web.%20Me%20gustaría%20recibir%20una%20propuesta%20de%20CALU%20para%20mi%20negocio." target="_blank" class="inline-flex items-center justify-center bg-black text-white text-xl font-bold py-5 px-10 rounded-full hover:bg-gray-900 hover:scale-105 transition duration-300 shadow-2xl">
+                <i class="fa-brands fa-whatsapp text-2xl mr-3 text-green-400"></i>
+                Hablemos por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#050505] py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <a href="#" class="text-2xl font-black tracking-tighter text-white">CALU<span class="text-calu-accent">.</span></a>
+                <p class="text-gray-500 text-sm mt-1">Productora Audiovisual — Mar del Plata</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://instagram.com/calu.studio" target="_blank" class="text-gray-400 hover:text-calu-accent text-2xl transition">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-calu-accent text-2xl transition">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+        <div class="text-center text-gray-600 text-xs mt-8">
+            &copy; 2026 CALU Productora Audiovisual. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Script para la interactividad -->
+    <script>
+        // Lógica para cambiar entre pestañas de Producciones Únicas y Abonos
+        function showTab(tabName) {
+            const btnUnicas = document.getElementById('btn-unicas');
+            const btnAbonos = document.getElementById('btn-abonos');
+            const tabUnicas = document.getElementById('tab-unicas');
+            const tabAbonos = document.getElementById('tab-abonos');
+            const pill = document.getElementById('tab-pill');
+
+            if (tabName === 'unicas') {
+                // Estilos del botón
+                btnUnicas.classList.replace('text-gray-400', 'text-black');
+                btnAbonos.classList.replace('text-black', 'text-gray-400');
+                // Movimiento de la píldora
+                pill.style.transform = 'translateX(0)';
+                
+                // Transición de contenido
+                tabAbonos.classList.add('opacity-0');
+                setTimeout(() => {
+                    tabAbonos.classList.add('hidden');
+                    tabUnicas.classList.remove('hidden');
+                    // Pequeño delay para que la transición CSS de opacidad funcione
+                    setTimeout(() => tabUnicas.classList.remove('opacity-0'), 50);
+                }, 300);
+
+            } else if (tabName === 'abonos') {
+                // Estilos del botón
+                btnAbonos.classList.replace('text-gray-400', 'text-black');
+                btnUnicas.classList.replace('text-black', 'text-gray-400');
+                // Movimiento de la píldora
+                pill.style.transform = 'translateX(100%)';
+
+                // Transición de contenido
+                tabUnicas.classList.add('opacity-0');
+                setTimeout(() => {
+                    tabUnicas.classList.add('hidden');
+                    tabAbonos.classList.remove('hidden');
+                    setTimeout(() => tabAbonos.classList.remove('opacity-0'), 50);
+                }, 300);
+            }
+        }
+    </script>
+</body>
+</html>
