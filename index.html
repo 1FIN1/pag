@@ -137,30 +137,38 @@
             
             <!-- Ejemplo de Caso (Estructura del Plan de Negocios) -->
             <div class="glass-card rounded-3xl overflow-hidden max-w-4xl mx-auto flex flex-col md:flex-row">
-                <!-- Espacio para foto/video real (marcador de posición) -->
-                <div class="md:w-1/2 bg-gray-800 relative min-h-[300px] flex items-center justify-center">
-                    <i class="fa-solid fa-play text-5xl text-gray-600"></i>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                    <span class="absolute bottom-4 left-4 font-bold text-xl">Lanzamiento Temp. Verano</span>
-                </div>
+                <!-- Espacio con Video Real -->
+<div class="md:w-1/2 bg-gray-800 relative min-h-[300px] flex items-center justify-center overflow-hidden group">
+    
+    <!-- Etiqueta de Video HTML5 -->
+    <video class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" autoplay loop muted playsinline>
+        <source src="reel-autos.mov" type="video/mp4">
+    </video>
+    
+    <!-- Gradiente oscuro para asegurar que el texto se lea perfecto sobre el video -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+    
+    <!-- Texto flotante -->
+    <span class="absolute bottom-4 left-4 font-bold text-xl z-10 text-white">Festival Que Suba la Marea</span>
+</div>
                 <div class="md:w-1/2 p-8 lg:p-12">
                     <div class="mb-6">
-                        <span class="text-calu-accent text-sm font-bold uppercase tracking-wider">Moda & Indumentaria</span>
-                        <h3 class="text-2xl font-bold mt-1">Marca X</h3>
+                        <span class="text-calu-accent text-sm font-bold uppercase tracking-wider">Eventos & Exhibiciones</span>
+                        <h3 class="text-2xl font-bold mt-1">Marca Radio Mega MDQ</h3>
                     </div>
                     
                     <div class="space-y-4 text-sm">
                         <div>
                             <p class="text-gray-500 font-bold uppercase text-xs">El Problema</p>
-                            <p class="text-gray-300">Necesitaban contenido de alto impacto para el lanzamiento de su nueva colección, alejándose de la típica foto de catálogo.</p>
+                            <p class="text-gray-300">Requerían contenido audiovisual de alto impacto para potenciar la difusión y maximizar la convocatoria de su evento a beneficio del Hospital Materno Infantil.</p>
                         </div>
                         <div>
                             <p class="text-gray-500 font-bold uppercase text-xs">La Producción</p>
-                            <p class="text-gray-300">Jornada de 3 horas. Dirección creativa, fotografía, modelos y grabación de video estabilizado.</p>
+                            <p class="text-gray-300">Jornada de 3 horas. Dirección creativa, fotografía y grabación de video estabilizado.</p>
                         </div>
                         <div>
                             <p class="text-gray-500 font-bold uppercase text-xs">Entregamos</p>
-                            <p class="text-white font-bold">25 Fotos Editadas + 6 Reels + 10 Clips Verticales</p>
+                            <p class="text-white font-bold">+30 Fotos Editadas + 6 Reels + 10 Clips Verticales</p>
                         </div>
                         <div class="bg-calu-accent/10 border border-calu-accent/20 p-4 rounded-xl mt-4">
                             <p class="text-calu-accent font-bold uppercase text-xs">Resultado</p>
@@ -336,10 +344,10 @@
                 <p class="text-gray-500 text-sm mt-1">Productora Audiovisual — Mar del Plata</p>
             </div>
             <div class="flex space-x-6">
-                <a href="https://instagram.com/calu.studio" target="_blank" class="text-gray-400 hover:text-calu-accent text-2xl transition">
+                <a href="https://www.instagram.com/calu.productora?stkn=a2RncDBhaHdvcGhr" target="_blank" class="text-gray-400 hover:text-calu-accent text-2xl transition">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#" class="text-gray-400 hover:text-calu-accent text-2xl transition">
+                <a href="https://www.tiktok.com/@calu.productora?_r=1" class="text-gray-400 hover:text-calu-accent text-2xl transition">
                     <i class="fa-brands fa-tiktok"></i>
                 </a>
             </div>
